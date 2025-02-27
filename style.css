@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Rubik", "serif";
+}
+
+.gradient-bg {
+    background-image: url("./image/Rectangle4932.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header-class {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    padding: 0px 20px;
+    max-width: 180px;
+    margin-top: -10px;
+}
+
+.screen-stock {
+    font-family: "Rubik", serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    font-style: normal;
+    text-align: left;
+}
+
+.btn-flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-explore {
+    width: 189px !important;
+    height: 43px !important;
+    top: 237px;
+    left: 47px !important;
+    border-radius: 100px;
+    padding-top: 8px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    left: 30px;
+    background-color: rgba(231, 166, 0, 1) !important;
+    color: #f8f9fa;
+    font-weight: 600;
+
+}
+
+.key-benefits-section {
+    max-height: 100vh;
+}
+
+.key-benefits {
+    font-family: "Rubik", serif;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.2%;
+    font-weight: 500;
+}
+
+.benefits ul li::marker {
+    color: rgba(231, 166, 0, 1);
+    /* bullet color */
+    width: 11px;
+    height: 11px;
+    font-size: 1.5em;
+    /* Change size */
+}
+
+.benefits ul li {
+    font-family: "Rubik", "serif";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -1%;
+}
+
+.group-image {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.group-image::before {
+    content: "";
+    position: absolute;
+    top: -370px;
+    left: 60px;
+    width: 100%;
+    height: 70%;
+    background: radial-gradient(circle, #c7d2fe 10%, transparent 10%) repeat;
+    background-size: 20px 20px;
+    z-index: -1;
+}
+
+.microsoftTeams {
+    position: absolute;
+    top: -495px;
+    left: -42px;
+}
+
+.benefits-img img {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.steps-to-screen {
+    color: rgba(6, 6, 6, 1);
+    font-family: "Rubik", "serif";
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.image-steps-to-screen {
+    background-image: url("./image/Group239239.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.gr-responsive{
+    display: none;
+}
+
+.hr{
+    color: rgba(74, 158, 231, 1);
+    border: 1px solid rgba(74, 158, 231, 1);
+}
+
+.qrcode{
+    color: rgba(0, 21, 80, 1);
+    font-family: "Rubik", "serif";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0%;
+}
+
+.gpaybtn{
+    width: 210px;
+    height: auto;
+}
+
+.footer {
+    background: rgba(211, 242, 255, 1);
+    padding: 20px;
+    text-align: justify; 
+}
+
+.heading-footer {
+    color: rgba(54, 71, 117, 1);
+    font-family: "Rubik", "serif";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.sub-heading-footer {
+    color: rgba(54, 71, 117, 1); 
+    font-family: "Rubik", "serif";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2%;
+}
+
+.content-footer{
+    color: rgba(61, 78, 125, 1); 
+    font-family: "Rubik", "serif";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: justify; 
+}
+
+.app-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.app-logo {
+    font-size: 24px !important;
+}
+
+
+/**
+Media Query for responsive Below
+*/
+
+/* Portrait mode (360x640) */
+@media screen and (max-width: 360px) and (orientation: portrait) {
+    .screen-stock {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .btn-explore {
+        padding-right: 0px;
+    }
+
+    .benefits ul li {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -2%;
+    }
+
+    .group-image {
+        width: 250px;
+        height: 150px;
+    }
+
+    .group-image::before {
+        content: "";
+        top: -150px;
+        left: 35px;
+        width: 50%;
+        height: 50%;
+    }
+
+    .key-benefits {
+        font-size: 16px;
+    }
+
+    .microsoftTeams {
+        top: -266px;
+        left: -3px;
+    }
+
+    .gr-responsive{
+        display: block;
+    }
+
+    .image-steps-to-screen {
+        display: none;
+    }
+    .qr-responsive {
+        margin: 15px auto;
+    }
+    .gpay-res {
+        margin: 10px auto;
+    }
+    
+}
+
+/* Landscape mode (640x360) */
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .group-image::before {
+        content: "";
+        top: -245px;
+        left: 66px;
+        width: 50%;
+        height: 50%;
+    }
+    .microsoftTeams {
+        top: -387px;
+        left: -4px;
+    }
+
+    .gr-responsive{
+        display: block;
+    }
+
+    .image-steps-to-screen {
+        display: none;
+    }
+
+    .qr-responsive {
+        margin: 25px auto;
+    }
+
+    .gpay-res {
+        margin: 10px auto;
+    }
+}
