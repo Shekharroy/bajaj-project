@@ -8,7 +8,7 @@ body {
 }
 
 .gradient-bg {
-    background-image: url("./image/Rectangle4932.png");
+    background-image: url("image/Rectangle4932.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0;
