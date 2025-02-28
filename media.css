@@ -73,7 +73,7 @@ Media Query for responsive Below
 }
 
 /* Landscape mode (640x360) */
-@media screen and (min-width: 640px) and (orientation: landscape) {
+@media screen and (max-width: 640px) and (orientation: landscape) {
 
     .screen-stock {
         font-size: 22px !important;
@@ -207,7 +207,7 @@ Media Query for responsive Below
 }
 
 /* Landscape mode (667x375) */
-@media screen and (min-width: 667px) and (orientation: landscape) {
+@media screen and (min-width: 667px) and (max-width: 1024px) and (orientation: landscape) {
     .screen-stock {
         font-size: 22px !important;
         line-height: 24px !important;
