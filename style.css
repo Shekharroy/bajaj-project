@@ -73,11 +73,9 @@ body {
 
 .benefits ul li::marker {
     color: rgba(231, 166, 0, 1);
-    /* bullet color */
     width: 11px;
     height: 11px;
     font-size: 1.5em;
-    /* Change size */
 }
 
 .benefits ul li {
@@ -127,6 +125,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
 }
+
 .image-steps-to-screen {
     background-image: url("./image/Group239239.png");
     background-repeat: no-repeat;
@@ -136,16 +135,16 @@ body {
     text-align: center;
 }
 
-.gr-responsive{
+.gr-responsive {
     display: none;
 }
 
-.hr{
+.hr {
     color: rgba(74, 158, 231, 1);
     border: 1px solid rgba(74, 158, 231, 1);
 }
 
-.qrcode{
+.qrcode {
     color: rgba(0, 21, 80, 1);
     font-family: "Rubik", "serif";
     font-weight: 700;
@@ -154,7 +153,7 @@ body {
     letter-spacing: 0%;
 }
 
-.gpaybtn{
+.gpaybtn {
     width: 210px;
     height: auto;
 }
@@ -162,7 +161,7 @@ body {
 .footer {
     background: rgba(211, 242, 255, 1);
     padding: 20px;
-    text-align: justify; 
+    text-align: justify;
 }
 
 .heading-footer {
@@ -175,7 +174,7 @@ body {
 }
 
 .sub-heading-footer {
-    color: rgba(54, 71, 117, 1); 
+    color: rgba(54, 71, 117, 1);
     font-family: "Rubik", "serif";
     font-weight: 500;
     font-size: 14px;
@@ -183,14 +182,14 @@ body {
     letter-spacing: 2%;
 }
 
-.content-footer{
-    color: rgba(61, 78, 125, 1); 
+.content-footer {
+    color: rgba(61, 78, 125, 1);
     font-family: "Rubik", "serif";
     font-weight: 400;
     font-size: 10px;
     line-height: 18px;
     letter-spacing: 0%;
-    text-align: justify; 
+    text-align: justify;
 }
 
 .app-button {
@@ -208,93 +207,3 @@ body {
     font-size: 24px !important;
 }
 
-
-/**
-Media Query for responsive Below
-*/
-
-/* Portrait mode (360x640) */
-@media screen and (max-width: 360px) and (orientation: portrait) {
-    .screen-stock {
-        font-size: 18px;
-        line-height: 30px;
-    }
-
-    .btn-explore {
-        padding-right: 0px;
-    }
-
-    .benefits ul li {
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: -2%;
-    }
-
-    .group-image {
-        width: 250px;
-        height: 150px;
-    }
-
-    .group-image::before {
-        content: "";
-        top: -150px;
-        left: 35px;
-        width: 50%;
-        height: 50%;
-    }
-
-    .key-benefits {
-        font-size: 16px;
-    }
-
-    .microsoftTeams {
-        top: -266px;
-        left: -3px;
-    }
-
-    .gr-responsive{
-        display: block;
-    }
-
-    .image-steps-to-screen {
-        display: none;
-    }
-    .qr-responsive {
-        margin: 15px auto;
-    }
-    .gpay-res {
-        margin: 10px auto;
-    }
-    
-}
-
-/* Landscape mode (640x360) */
-@media screen and (max-width: 640px) and (orientation: landscape) {
-    .group-image::before {
-        content: "";
-        top: -245px;
-        left: 66px;
-        width: 50%;
-        height: 50%;
-    }
-    .microsoftTeams {
-        top: -387px;
-        left: -4px;
-    }
-
-    .gr-responsive{
-        display: block;
-    }
-
-    .image-steps-to-screen {
-        display: none;
-    }
-
-    .qr-responsive {
-        margin: 25px auto;
-    }
-
-    .gpay-res {
-        margin: 10px auto;
-    }
-}
